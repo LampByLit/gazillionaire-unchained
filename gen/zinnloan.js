@@ -9,13 +9,15 @@ VB.form("frm_ZinnLoan",
         ["Image", "Image1", {"Left": 135, "Top": 150, "Width": 3210, "Height": 4410, "Stretch": -1}],
         ["Label", "Label1", {"Caption": "Mr. Zinn", "ForeColor": 16777215, "Left": 135, "Top": 4605, "Width": 3210, "Height": 315, "FontName": "Arial", "FontSize": 8.25, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "TabIndex": 14, "Alignment": 2, "BackStyle": 0}]
       ]],
-      ["VideoSoftElastic", "VSElastic4", {"BackColor": 4194304, "Left": 135, "Top": 5520, "Width": 9345, "Height": 1320, "TabIndex": 8, "AutoSizeChildren": 7, "BorderWidth": 0, "ChildSpacing": 0, "BevelInner": 0, "BevelOuter": 0, "BevelInnerWidth": 0, "BevelOuterWidth": 0, "FloodColor": 16777088, "IntBkg": 4194304}, [
-        ["VideoSoftElastic", "b_Help1", {"BackColor": 12632256, "ForeColor": 128, "Left": 7035, "Top": 0, "Width": 2310, "Height": 1320, "TabIndex": 12, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "AutoSizeChildren": 7, "BorderWidth": 12, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 0, "FloodPercent": 100, "Caption": "Help", "CaptionPos": 5, "AccessKey": -1, "ShadowColor": 8388608}, [
-          ["Image", "b_Help2", {"Picture": {"frx": "frx/ZINNLOAN/b_Help2.Picture.ico"}, "Left": 540, "Top": 180, "Width": 1125, "Height": 585, "Stretch": -1}]
+      ["VideoSoftElastic", "VSElastic4", {"BackColor": 4194304, "Left": 135, "Top": 5520, "Width": 9345, "Height": 1320, "TabIndex": 8, "AutoSizeChildren": 1, "BorderWidth": 0, "ChildSpacing": 0, "BevelInner": 0, "BevelOuter": 0, "BevelInnerWidth": 0, "BevelOuterWidth": 0, "FloodColor": 16777088, "IntBkg": 4194304}, [
+        ["VideoSoftElastic", "b_BorrowMax", {"BackColor": 12632256, "Left": 3120, "Top": 0, "Width": 1560, "Height": 1320, "TabIndex": 16, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Borrow Max", "CaptionPos": 4, "AccessKey": -1}],
+        ["VideoSoftElastic", "b_Help1", {"BackColor": 12632256, "ForeColor": 128, "Left": 7800, "Top": 0, "Width": 1545, "Height": 1320, "TabIndex": 12, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "AutoSizeChildren": 7, "BorderWidth": 12, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 0, "FloodPercent": 100, "Caption": "Help", "CaptionPos": 5, "AccessKey": -1, "ShadowColor": 8388608}, [
+          ["Image", "b_Help2", {"Picture": {"frx": "frx/ZINNLOAN/b_Help2.Picture.ico"}, "Left": 480, "Top": 180, "Width": 600, "Height": 585, "Stretch": -1}]
         ]],
-        ["VideoSoftElastic", "b_ExitZinnLoan", {"BackColor": 12632256, "ForeColor": 8388608, "Left": 0, "Top": 0, "Width": 2340, "Height": 1320, "TabIndex": 11, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 16384, "FloodPercent": 100, "Caption": "Continue", "CaptionPos": 4, "AccessKey": -1, "ShadowColor": 8388608}],
-        ["VideoSoftElastic", "b_PayBack", {"BackColor": 12632256, "Left": 2340, "Top": 0, "Width": 2340, "Height": 1320, "TabIndex": 10, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Pay Back Loan", "CaptionPos": 4, "AccessKey": -1}],
-        ["VideoSoftElastic", "b_PayBackMax", {"BackColor": 12632256, "Left": 4680, "Top": 0, "Width": 2355, "Height": 1320, "TabIndex": 9, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Pay Back Maximum", "CaptionPos": 4, "AccessKey": -1}]
+        ["VideoSoftElastic", "b_ExitZinnLoan", {"BackColor": 12632256, "ForeColor": 8388608, "Left": 0, "Top": 0, "Width": 1560, "Height": 1320, "TabIndex": 11, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 16384, "FloodPercent": 100, "Caption": "Continue", "CaptionPos": 4, "AccessKey": -1, "ShadowColor": 8388608}],
+        ["VideoSoftElastic", "b_PayBackMax", {"BackColor": 12632256, "Left": 6240, "Top": 0, "Width": 1560, "Height": 1320, "TabIndex": 9, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Pay Back Max", "CaptionPos": 4, "AccessKey": -1}],
+        ["VideoSoftElastic", "b_PayBack", {"BackColor": 12632256, "Left": 4680, "Top": 0, "Width": 1560, "Height": 1320, "TabIndex": 10, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Pay Back Loan", "CaptionPos": 4, "AccessKey": -1}],
+        ["VideoSoftElastic", "b_Borrow", {"BackColor": 12632256, "Left": 1560, "Top": 0, "Width": 1560, "Height": 1320, "TabIndex": 17, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 10, "BevelInner": 0, "BevelOuter": 1, "BevelInnerWidth": 0, "BevelOuterWidth": 5, "FloodColor": 12632256, "FloodPercent": 100, "Caption": "Borrow Money", "CaptionPos": 4, "AccessKey": -1}]
       ]],
       ["VideoSoftElastic", "VSElastic2", {"BackColor": 16744576, "Left": 3645, "Top": 960, "Width": 5925, "Height": 4575, "TabIndex": 2, "AutoSizeChildren": 7, "BorderWidth": 0, "BevelInner": 7, "BevelOuter": 0, "BevelInnerWidth": 8, "BevelOuterWidth": 0, "ShadowColor": 4194304, "IntBkg": 16744576}, [
         ["VideoSoftElastic", "b_Cash", {"BackColor": 8454016, "Left": 420, "Top": 2775, "Width": 5115, "Height": 570, "TabIndex": 7, "FontName": "Arial", "FontSize": 13.5, "FontBold": -1, "FontItalic": 0, "FontStrikethru": 0, "FontUnderline": 0, "BorderWidth": 0, "BevelInner": 0, "BevelOuter": 0, "BevelInnerWidth": 0, "BevelOuterWidth": 0, "FloodColor": 8454016, "Caption": "   Cash", "IntBkg": 8454016}],
@@ -28,14 +30,100 @@ VB.form("frm_ZinnLoan",
     ]]
   ]],
 function (me) {
-    const { b_Timer, FillElastic, b_Sound, Image1Container, Image1, Label1, VSElastic4, b_Help1 } = me.controls;
-    const { b_Help2, b_ExitZinnLoan, b_PayBack, b_PayBackMax, VSElastic2, b_Cash, b_Interest, b_InterestRate } = me.controls;
+    const { b_Timer, FillElastic, b_Sound, Image1Container, Image1, Label1, VSElastic4, b_BorrowMax } = me.controls;
+    const { b_Help1, b_Help2, b_ExitZinnLoan, b_PayBackMax, b_PayBack, b_Borrow, VSElastic2, b_Cash } = me.controls;
+    const { b_Interest, b_InterestRate } = me.controls;
     const { b_Credit, b_Loan, VSElastic3 } = me.controls;
     const HOURGLASS = 11;
     const ARROW_CURSOR = 1;
     let animFrame = 0;
     let animTicks = 0;
     let exitBackColor = 0;
+
+    async function b_Borrow_Click() {
+        let borrowAmount = 0;
+        const ARROW_CURSOR = 1;
+        me.MousePointer = HOURGLASS;
+        if (player.zinnLoan >= player.zinnCreditLimit) {
+            if (settings.soundOn == -1) {
+                Beep();
+            }
+            frm_Box0.FillElastic.Caption = "Mr. Zinn";
+            frm_Box0.b_Message.Caption = "\n" + "Mr. Zinn refuses to loan you any more money. Check your credit limit.";
+            await frm_Box0.Show(1);
+            borrowAmount = 0;
+        } else {
+            borrowAmount = await askNumber(0, "", 0.25 * (player.zinnCreditLimit - player.zinnLoan), (player.zinnCreditLimit - player.zinnLoan), "Enter the amount you wish to borrow:", "Borrow from Mr. Zinn");
+        }
+        if (borrowAmount == 0) {
+        } else if (borrowAmount == -3333) {
+        } else if ((borrowAmount + player.zinnLoan) > player.zinnCreditLimit) {
+            if (settings.soundOn == -1) {
+                Beep();
+            }
+            frm_Box0.FillElastic.Caption = "Mr. Zinn";
+            frm_Box0.b_Message.Caption = "\n" + "You can't borrow that much. Check your credit limit.";
+            await frm_Box0.Show(1);
+        } else {
+            player.zinnLoan = player.zinnLoan + borrowAmount;
+            player.cash = player.cash + borrowAmount;
+            b_Timer.Enabled = -1;
+            if (settings.soundOn == -1) {
+                b_Sound.Command = "Close";
+                b_Sound.FileName = Trim(paths.soundDir) + "zinn.wav";
+                b_Sound.Command = "Open";
+                b_Sound.Command = "Play";
+            }
+        }
+        updateDisplay();
+        me.MousePointer = ARROW_CURSOR;
+    }
+
+    function b_Borrow_MouseDown(Button, Shift, X, Y) {
+        b_Borrow.BackColor = 0xFFFFFF;
+    }
+
+    function b_Borrow_MouseUp(Button, Shift, X, Y) {
+        b_Borrow.BackColor = 0xC0C0C0;
+    }
+
+    async function b_BorrowMax_Click() {
+        let borrowAmount = 0;
+        me.MousePointer = HOURGLASS;
+        if (player.zinnLoan >= player.zinnCreditLimit) {
+            if (settings.soundOn == -1) {
+                Beep();
+            }
+            frm_Box0.FillElastic.Caption = "Mr. Zinn";
+            frm_Box0.b_Message.Caption = "\n" + "Mr. Zinn refuses to loan you any more money. Check your credit limit.";
+            await frm_Box0.Show(1);
+            borrowAmount = 0;
+        } else {
+            borrowAmount = player.zinnCreditLimit - player.zinnLoan;
+        }
+        if (borrowAmount == 0) {
+        } else {
+            player.zinnLoan = player.zinnLoan + borrowAmount;
+            player.cash = player.cash + borrowAmount;
+            b_Timer.Enabled = -1;
+            if (settings.soundOn == -1) {
+                b_Sound.Command = "Close";
+                b_Sound.FileName = Trim(paths.soundDir) + "zinn.wav";
+                b_Sound.Command = "Open";
+                b_Sound.Command = "Play";
+            }
+        }
+        updateDisplay();
+        me.MousePointer = ARROW_CURSOR;
+    }
+
+    function b_BorrowMax_MouseDown(Button, Shift, X, Y) {
+        b_BorrowMax.BackColor = 0xFFFFFF;
+    }
+
+    function b_BorrowMax_MouseUp(Button, Shift, X, Y) {
+        b_BorrowMax.BackColor = 0xC0C0C0;
+    }
 
     async function b_ExitZinnLoan_Click() {
         me.MousePointer = HOURGLASS;
@@ -236,7 +324,7 @@ function (me) {
             b_Sound.Command = "Play";
         }
         frm_Box2.FillElastic.Caption = "Help (Mr. Zinn's Loan)";
-        frm_Box2.b_Message.Caption = "Mr. Zinn is a wealthy and somewhat fickle financier. He made his fortune as a merchant on Zile, and now he wants to expand his business." + "\n" + "\n" + "Mr. Zinn is willing to loan you money at " + Format(player.zinnRate * 100, "#,#0") + "% interest per week. The interest is charged every time you leave a planet and travel to a new planet, and this amount is added to your total debt." + "\n" + "\n" + "Under no circumstances must you allow this loan to exceed the maximum CREDIT LIMIT of " + Format(player.zinnCreditLimit, "#,#0") + " kubars. If you ever allow your loan to exceed this CREDIT LIMIT, Mr. Zinn will repossess your ship, which will force you into BANKRUPTCY and cause you to lose the game.";
+        frm_Box2.b_Message.Caption = "Mr. Zinn is a wealthy and somewhat fickle financier. He made his fortune as a merchant on Zile, and now he wants to expand his business." + "\n" + "\n" + "Mr. Zinn is willing to loan you money at " + Format(player.zinnRate * 100, "#,#0") + "% interest per week, up to your CREDIT LIMIT of " + Format(player.zinnCreditLimit, "#,#0") + " kubars. You can borrow and repay as often as you like, as long as the loan never exceeds that CREDIT LIMIT." + "\n" + "\n" + "The interest is charged every time you leave a planet, including when you Stay, and this amount is added to your total debt. If you ever allow your loan to exceed this CREDIT LIMIT, Mr. Zinn will repossess your ship, which will force you into BANKRUPTCY and cause you to lose the game.";
         await frm_Box2.Show(1);
     }
 
@@ -267,10 +355,12 @@ function (me) {
     }
 
     return {
-        b_ExitZinnLoan_Click, b_ExitZinnLoan_MouseDown, b_ExitZinnLoan_MouseUp, b_Help1_Click,
-        b_Help1_MouseDown, b_Help1_MouseUp, b_Help2_Click, b_Help2_MouseDown,
-        b_Help2_MouseUp, b_PayBack_Click, b_PayBack_MouseDown, b_PayBack_MouseUp,
-        b_PayBackMax_Click, b_PayBackMax_MouseDown, b_PayBackMax_MouseUp, b_Timer_Timer,
+        b_Borrow_Click, b_Borrow_MouseDown, b_Borrow_MouseUp, b_BorrowMax_Click,
+        b_BorrowMax_MouseDown, b_BorrowMax_MouseUp, b_ExitZinnLoan_Click, b_ExitZinnLoan_MouseDown,
+        b_ExitZinnLoan_MouseUp, b_Help1_Click, b_Help1_MouseDown, b_Help1_MouseUp,
+        b_Help2_Click, b_Help2_MouseDown, b_Help2_MouseUp, b_PayBack_Click,
+        b_PayBack_MouseDown, b_PayBack_MouseUp, b_PayBackMax_Click, b_PayBackMax_MouseDown,
+        b_PayBackMax_MouseUp, b_Timer_Timer,
         showHelp, updateDisplay, Form_Activate, Form_KeyPress,
         Form_Load,
     };
